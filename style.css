@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 /* Общие стили */
 body{
     line-height: 1.5;
@@ -104,8 +107,8 @@ a:hover{
    
    }
    
-   .container {
-   
+.container {
+
    }
    
    .welcome__desc {
@@ -225,7 +228,7 @@ a:hover{
     margin-top: 227px;
 }
 
-.container {
+.blog .container {
 
 }
 
@@ -279,6 +282,60 @@ margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+.contact {
+    margin-top: 200px;
+}
+
+.contact__title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+letter-spacing: -0.5px;
+color: #DEDEDE;
+margin-bottom: 32px;
+}
+
+.contact__text {
+    width: 520px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 40px;
+    margin-top: 81px;
+    border-top: 1px solid #696969;
+    
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer__span{
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 2.25;
+letter-spacing: -0.5px;
+color: #ECECEC;
 }
 
 

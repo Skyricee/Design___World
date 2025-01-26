@@ -10,19 +10,19 @@
 <body>
     <header class="header">
         <div class="container header__contaiter">
-          <a href="index.html" class="logo">
+          <a href="#welcome" class="logo">
             <img src="/Photo/logo.svg" alt="logo">
           </a>
       
           <nav class="header__nav">
-            <a href="#!" class="header__link">Галлерея</a>
-            <a href="#!" class="header__link">Статьи/Блоги</a>
+            <a href="#galery" class="header__link">Галлерея</a>
+            <a href="#blog" class="header__link">Статьи/Блоги</a>
             <a href="#!" class="header__link">Новости</a>
           </nav>
         </div>
       </header>
       <main class="main">
-        <section class="welcome">
+        <section class="welcome" id="welcome">
             <div class="container">
                 <div class="welcome__desc">
                 <h1 class="welcome__title">Профессиональный дизайн для вашего успеха.</h1>
@@ -38,7 +38,7 @@
           <div class="container">
               <button class="galery__btn"><img src="/Photo/arrow.svg" class="galery_icon" alt="arrow">GALERY</button>
               <div class="galery__wraper">
-                  <a href="#!" class="work">
+                  <a href="#!" class="work" id="galery">
                       <img src="/Photo/work1.jpg" alt="" class="work__img">
                       <span class="work__name">Work 1</span>
                   </a>
@@ -57,7 +57,7 @@
               </div>
           </div>
       </section>
-      <section class="blog">
+      <section class="blog" id="blog">
         <div class="container">
             <h2 class="blog__title">Статьи и Блоги</h2>
           <div class="blog__main">
@@ -72,9 +72,26 @@
               <button class="blog__download">Скачать в PDF</button>
             </a>
           </div>
-      
         </div>
       </section>
+      <section class="contact">
+        <div class="container">
+            <h2 class="contact__title">Контакты</h2>
+            <p class="contact__text">Мы всегда открыты для предложений и готовы обсудить любые идеи! Если у вас есть вопросы, пожелания или вы хотите предложить сотрудничество, свяжитесь с нами любым удобным способом</p>
+            <a href="mailto:skyricee@mail.ru" class="btn__mail welcome__btn"> <img src="/Photo/mail.svg" alt="">skyricee@mail.ru
+            </a>
+        </div>
+          </section>
       </main>
+      <footer class="footer">
+        <div class="container">
+            <p class="footer__copy">Made by <span class="footer__span">Kasatkin Semen</span> — Copyright 2025</p>
+            <div class="socials">
+                <a href="https://taplink.cc/designworld" target="_blank" class="socials__link">
+                    <img src="/Photo/Link.svg" alt="" class="socials__img">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

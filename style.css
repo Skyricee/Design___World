@@ -82,3 +82,58 @@ a:hover{
     font-size: 18px;
 
 }
+
+/* ---------
+      Main
+   --------- */
+
+   .main {
+
+   }
+   
+   /* ---------
+       Welcome
+      --------- */
+   
+   .welcome {
+       margin-top: 100px;
+   
+   }
+   
+   .container {
+   
+   }
+   
+   .welcome__desc {
+   
+   }
+   
+   .welcome__title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 54px;
+   line-height: 1.19;
+   color: #DEDEDE;
+   width: 537px;
+   margin-bottom: 24px;
+   margin-top: 0;
+   }
+   
+   .welcome__text {
+       width: 447px;
+       margin-bottom: 60px;
+   }
+   
+   
+   .welcome__img {
+       width: 504px;
+       height: 652px;
+       padding-right: 200px;
+   }
+   
+   .welcome .container{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       
+   }
